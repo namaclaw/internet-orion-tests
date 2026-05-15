@@ -1,3 +1,4 @@
 .auth/state.json
+.auth/env_config.json
 __pycache__/
 *.pyc
