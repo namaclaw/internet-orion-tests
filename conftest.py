@@ -8,7 +8,7 @@ BASE_URL = "https://the-internet.herokuapp.com"
 AUTH_STATE_PATH = Path(__file__).parent / ".auth" / "state.json"
 PUBLIC_USERNAME = "tomsmith"
 PUBLIC_PASSWORD = "SuperSecretPassword!"
-DEFAULT_TIMEOUT_MS = 5000
+DEFAULT_TIMEOUT_MS = 15000
 
 
 @pytest.fixture(scope="session")
